@@ -1,0 +1,125 @@
+body {
+        background-color: rgb(245, 179, 245);
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    justify-content: center;
+    background-color: rgb(233 30 99 / 56%);
+    height: 81px;
+    font-family: "Merriweather", Helvetica, Arial, serif;
+    border-bottom: 2px ridge black;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    "A B B"
+    "A C C"
+    "A D D"
+    "E E E"
+    "F F F";
+}
+
+.img {
+    border: 5px groove cornflowerblue;
+    grid-area: A;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.One {
+    grid-area: B;
+}
+
+.Two {
+    grid-area: C;
+}
+
+.Thre {
+    grid-area: D;
+}
+
+.Four {
+    grid-area: E;
+}
+
+.Five {
+    grid-area: F;
+}
+
+.nav {
+    padding: 28px;
+    text-align: center;
+}
+
+.header-link {
+    margin: 0 20px;
+    font-size: 21px;
+}
+
+.link:hover {
+    color: rgb(43 124 43);
+}
+
+.link {
+    color: rgb(38 42 60);
+    transition: color .25s;
+}
+
+.h1 {
+    text-align: center;
+    color: darkblue;
+    font-family: "Merriweather", Helvetica, Arial, serif;
+}
+.main {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.info {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    border-bottom: 2px solid darkslateblue;
+}
+.footer {
+    text-align: center;
+    background-color: rgb(233 30 99 / 56%);
+    border-top: 2px ridge black;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2 {
+    color: darkviolet;
+    border-left: 5px solid #e91e1e;
+    padding-left: 10px;
+    font-family: "Merriweather", Helvetica, Arial, serif;
+}
+.ul {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.bottom {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 3px;
+}
+
+.Contact {
+    font-family: "Merriweather", Helvetica, Arial, serif;
+}
+
+.Phone {
+    height: 24px;
+    width: 24px;
+}
+
+.VK {
+    height: 30px;
+    width: 40px;
+}
